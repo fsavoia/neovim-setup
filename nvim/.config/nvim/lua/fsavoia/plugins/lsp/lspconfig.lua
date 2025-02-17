@@ -74,12 +74,6 @@ return {
 				local opts = { buffer = ev.buf, silent = true }
 
 				-- set keybinds
-				opts.desc = "Show LSP references"
-				keymap.set("n", "gR", "<cmd>Telescope lsp_references<CR>", opts) -- show definition, references
-
-				opts.desc = "Black Python formatting"
-				keymap.set("n", "<leader>fm", ":silent !black %<CR>") -- black python formatting
-
 				opts.desc = "[F]ind Buffer Symbols@"
 				keymap.set("n", "<leader>f@", "<cmd>Telescope lsp_document_symbols<CR>", opts) -- show buffer symbols
 

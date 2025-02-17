@@ -67,7 +67,7 @@ return {
 			dashboard.button("f", " " .. " Find file", ":Telescope find_files <CR>"),
 			dashboard.button("r", " " .. " Recent files", ":Telescope oldfiles <CR>"),
 			dashboard.button("s", " " .. " Find string", ":Telescope live_grep <CR>"),
-			dashboard.button("R", " " .. "Restore Session", '<cmd>lua require("persistence").load()<cr>'),
+			dashboard.button("R", " " .. " Restore Session", '<cmd>lua require("persistence").load()<cr>'),
 			dashboard.button("n", " " .. " New file", ":ene <BAR> startinsert <CR>"),
 			dashboard.button("c", " " .. " Config", ":e ~/.config/nvim/ <CR>"),
 			dashboard.button("l", "󰒲 " .. " Lazy", ":Lazy<CR>"),

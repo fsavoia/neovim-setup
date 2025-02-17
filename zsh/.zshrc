@@ -69,7 +69,6 @@ alias zr="source ~/.zshrc"
 alias cls="clear"
 alias c="clear"
 alias cdv="cd ~/.config/nvim"
-alias cdk="cd ~/.config/kitty"
 alias ql="qlmanage -p"
 alias lt='eza --long --tree --sort=modified --git --icons'
 alias y="yazi"
