@@ -6,3 +6,7 @@ ratio = [ 1, 2, 3 ]
 linemode = "size_and_mtime"
 show_symlink = true
 wrap = true
+
+[preview]
+max_width = 1200
+max_height = 1200

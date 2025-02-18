@@ -56,6 +56,7 @@ alias eng-docs="sudo ssh -i /Users/fsavoia/.ssh/id_rsa -L 80:ein1-fsavoi-u20:800
 alias eng-ssl="sudo ssh -i /Users/fsavoia/.ssh/id_rsa -L 443:ein1-fsavoi-u20:4443 fsavoia@ein1-fsavoi-u20.fsd.forescout.com"
 alias dev="cd ~/Dev"
 # alias cat='bat --theme=Dracula --italic-text=always --style=plain,changes --paging=never'
+alias cat='bat --style=plain,changes --paging=never'
 alias cls="clear"
 alias gups="git checkout main && git fetch upstream && git merge upstream/main && git push"
 alias tf="terraform"
@@ -74,6 +75,7 @@ alias lt='eza --long --tree --sort=modified --git --icons'
 alias y="yazi"
 alias cdc="cd ~/.config"
 alias lz="lazygit"
+alias gs="git checkout"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
